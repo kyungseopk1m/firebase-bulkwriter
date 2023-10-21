@@ -11,8 +11,8 @@ npm run dev
 ```
 
 ## download firebase config
-The json file related to firebase-adminsdk is required in the config folder.
+1. The json file related to firebase-adminsdk is required in the config folder.
 <br>
-**service accounts - Firebase Admin SDK (Node.js) - Generate new private key.**
+2. **service accounts - Firebase Admin SDK (Node.js) - Generate new private key.**
 <br>
-Put the file in the config folder, create '.env' in the top root, and enter the absolute path by copying the json file in FIREBASE_CONFIG.
+3. Put the file in the config folder, create '.env' in the top root, and enter the absolute path by copying the json file in FIREBASE_CONFIG.
