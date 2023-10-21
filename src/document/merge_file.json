@@ -1,0 +1,23 @@
+{
+  "Hello!": [
+      {
+          "name": "A1",
+          "count": "6",
+          "proportion": "100.0"
+      }
+  ],
+  "It's bulkwriter example file": [
+      {
+          "name": "A3",
+          "count": "7",
+          "proportion": "100.0"
+      }
+  ],
+  "by kyungseopk1m": [
+      {
+          "name": "A3",
+          "count": "12",
+          "proportion": "100.0"
+      }
+  ]
+}
