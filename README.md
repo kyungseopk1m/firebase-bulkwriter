@@ -3,15 +3,20 @@ Example for firebase bulkwriter.
 <br>
 I wrote it, so you can edit it in your own way as needed.
 <br>
-Used Nodejs 18.14.2, no used framework.
+Used Node.JS v18.14.2 without any framework.
 
-## Running server
+## Running BulkWrite
 ```
 npm run dev
 ```
 
-## download firebase config
+## Download Firebase Config
 
-1. The json file related to firebase-adminsdk is required in the config folder.
-2. **service accounts - Firebase Admin SDK (Node.js) - Generate new private key.**
-3. Put the file in the config folder, create '.env' in the top root, and enter the absolute path by copying the json file in FIREBASE_CONFIG.
+To run this project, you'll need the JSON file related to the Firebase Admin SDK.<br>
+Follow these steps to obtain the Firebase Admin SDK private key:<br>
+
+1. Go to **Service accounts** in the Firebase Console.
+2. Under **Firebase Admin SDK (Node.js)**, click **Generate new private key**.
+3. Download the JSON file and place it in the 'config' folder.
+
+<br>Once you have the JSON file, create a '.env' file at the project's root directory, and enter the absolute path to the JSON file in a variable named FIREBASE_CONFIG.
