@@ -19,4 +19,4 @@ Follow these steps to obtain the Firebase Admin SDK private key:<br>
 2. Under **Firebase Admin SDK (Node.js)**, click **Generate new private key**.
 3. Download the JSON file and place it in the 'config' folder.
 
-<br>Once you have the JSON file, create a '.env' file at the project's root directory, and enter the absolute path to the JSON file in a variable named FIREBASE_CONFIG.
+Once you have the JSON file, create a '.env' file at the project's root directory, and enter the absolute path to the JSON file in a variable named FIREBASE_CONFIG.
