@@ -4,6 +4,8 @@ Example for firebase bulkwriter.
 I wrote it, so you can edit it in your own way as needed.
 <br>
 Used Node.JS v18.14.2 without any framework.
+<br>
+To implement this code, the relevant [reference](https://cloud.google.com/nodejs/docs/reference/firestore/latest/firestore/bulkwriter) was consulted.
 
 ## Running BulkWrite
 ```
