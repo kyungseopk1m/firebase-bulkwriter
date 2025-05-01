@@ -1,24 +1,38 @@
-# firebase-bulkwriter
-Example for firebase bulkwriter.
-<br>
-I wrote it, so you can edit it in your own way as needed.
-<br>
-Used Node.JS v18.14.2 without any framework.
-<br>
-To implement this code, the relevant [reference](https://cloud.google.com/nodejs/docs/reference/firestore/latest/firestore/bulkwriter) was consulted.
+# firebase-bulkwriter-example
 
-## Running BulkWrite
+A comprehensive implementation example of Firebase Firestore BulkWriter operations. This repository demonstrates efficient batch processing and bulk data operations using Firebase Admin SDK.
+
+## Overview
+
+This project showcases the implementation of Firebase Firestore BulkWriter functionality using Node.js `v22.14.0`. The code is built with reference to the official [Firebase Firestore BulkWriter documentation](https://cloud.google.com/nodejs/docs/reference/firestore/latest/firestore/bulkwriter).
+
+## Prerequisites
+
+- Node.js `v22.14.0` or higher
+- Firebase project with Firestore enabled
+- Firebase Admin SDK credentials
+
+## Getting Started
+
+### Installation
+
+```bash
+npm install
 ```
+
+### Configuration
+
+1. Navigate to the Firebase Console's **Project Settings** > **Service accounts**
+2. Select **Firebase Admin SDK** and click **Generate new private key**
+3. Download the generated JSON file
+4. Place the JSON file in the `config` directory
+5. Create a `.env` file in the project root with the following content:
+   ```
+   FIREBASE_CONFIG=/absolute/path/to/your/firebase-config.json
+   ```
+
+### Running the Application
+
+```bash
 npm run dev
 ```
-
-## Download Firebase Config
-
-To run this project, you'll need the JSON file related to the Firebase Admin SDK.<br>
-Follow these steps to obtain the Firebase Admin SDK private key:<br>
-
-1. Go to **Service accounts** in the Firebase Console.
-2. Under **Firebase Admin SDK (Node.js)**, click **Generate new private key**.
-3. Download the JSON file and place it in the 'config' folder.
-
-Once you have the JSON file, create a '.env' file at the project's root directory, and enter the absolute path to the JSON file in a variable named FIREBASE_CONFIG.
